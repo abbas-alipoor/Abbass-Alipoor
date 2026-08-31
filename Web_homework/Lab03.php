@@ -4,9 +4,8 @@
 // Student ID: 
 
 
-// ==========================
+
 // Task 1
-// ==========================
 
 // This class is related to the library
 class Library {
@@ -18,12 +17,11 @@ class Library {
 // Display the maximum number of books
 echo "Maximum books allowed: " . Library::MAX_BOOKS;
 
-echo "<br><br>";
 
 
-// ==========================
+
 // Task 2
-// ==========================
+
 
 // This class counts the number of students
 class StudentCounter {
@@ -43,14 +41,13 @@ StudentCounter::addStudent();
 StudentCounter::addStudent();
 
 // Display the final number of students
-echo "Total students: " . StudentCounter::$count;
-
-echo "<br><br>";
+echo "Total students: " . StudentCounter::$count; 
 
 
-// ==========================
+
+
 // Task 3
-// ==========================
+
 
 // The Vehicle class is an abstract class
 abstract class Vehicle {
@@ -86,7 +83,7 @@ $car = new Car();
 // Calling the start method
 $car->start();
 
-echo "<br>";
+
 
 // Creating an object from the Bike class
 $bike = new Bike();
